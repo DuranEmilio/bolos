@@ -1,0 +1,27 @@
+#tbody{
+    display:flex ;
+    flex-direction: row;
+}
+
+.hit{
+    display: flex;
+    flex-direction: column;
+}
+
+.hits{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.first{
+    padding: .5rem;
+    border: 1px solid black;
+}
+
+.totalscore{
+    border: 1px solid black;
+    display: flex;
+    padding: .5rem;
+    justify-content: center;
+}
