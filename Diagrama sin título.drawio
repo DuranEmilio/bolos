@@ -1,35 +1,44 @@
 <mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/132.0.0.0 Safari/537.36" version="26.0.11">
   <diagram name="Página-1" id="6HZk3-a4uHULVAy49wI_">
-    <mxGraphModel dx="547" dy="398" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="963" dy="700" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="3NX_bbtvHv0CCGVlVaT6-11" value="Class" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;direction=east;" vertex="1" parent="1">
-          <mxGeometry x="160" y="480" width="160" height="234" as="geometry" />
+        <mxCell id="3NX_bbtvHv0CCGVlVaT6-22" value="Usuario" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="460" y="300" width="190" height="312" as="geometry" />
         </mxCell>
-        <mxCell id="3NX_bbtvHv0CCGVlVaT6-12" value="- nombre: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="3NX_bbtvHv0CCGVlVaT6-11">
-          <mxGeometry y="26" width="160" height="26" as="geometry" />
+        <mxCell id="3NX_bbtvHv0CCGVlVaT6-23" value="- nombre: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="3NX_bbtvHv0CCGVlVaT6-22">
+          <mxGeometry y="26" width="190" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="3NX_bbtvHv0CCGVlVaT6-13" value="- edad: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="3NX_bbtvHv0CCGVlVaT6-11">
-          <mxGeometry y="52" width="160" height="26" as="geometry" />
+        <mxCell id="3NX_bbtvHv0CCGVlVaT6-24" value="- edad: int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="3NX_bbtvHv0CCGVlVaT6-22">
+          <mxGeometry y="52" width="190" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="3NX_bbtvHv0CCGVlVaT6-14" value="- getNombre(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="3NX_bbtvHv0CCGVlVaT6-11">
-          <mxGeometry y="78" width="160" height="26" as="geometry" />
+        <mxCell id="3NX_bbtvHv0CCGVlVaT6-25" value="- id: String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="3NX_bbtvHv0CCGVlVaT6-22">
+          <mxGeometry y="78" width="190" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="3NX_bbtvHv0CCGVlVaT6-15" value="- setNombre(String nombre): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="3NX_bbtvHv0CCGVlVaT6-11">
-          <mxGeometry y="104" width="160" height="26" as="geometry" />
+        <mxCell id="3NX_bbtvHv0CCGVlVaT6-26" value="- getNombre(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="3NX_bbtvHv0CCGVlVaT6-22">
+          <mxGeometry y="104" width="190" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="3NX_bbtvHv0CCGVlVaT6-16" value="- getEdad(): int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="3NX_bbtvHv0CCGVlVaT6-11">
-          <mxGeometry y="130" width="160" height="26" as="geometry" />
+        <mxCell id="3NX_bbtvHv0CCGVlVaT6-27" value="- setNombre(String nombre): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="3NX_bbtvHv0CCGVlVaT6-22">
+          <mxGeometry y="130" width="190" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="3NX_bbtvHv0CCGVlVaT6-17" value="- setEdad(int edad): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="3NX_bbtvHv0CCGVlVaT6-11">
-          <mxGeometry y="156" width="160" height="26" as="geometry" />
+        <mxCell id="3NX_bbtvHv0CCGVlVaT6-28" value="- getEdad(): int" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="3NX_bbtvHv0CCGVlVaT6-22">
+          <mxGeometry y="156" width="190" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="3NX_bbtvHv0CCGVlVaT6-18" value="- mostrarInformacion(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="3NX_bbtvHv0CCGVlVaT6-11">
-          <mxGeometry y="182" width="160" height="26" as="geometry" />
+        <mxCell id="3NX_bbtvHv0CCGVlVaT6-29" value="- setEdad(int edad): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="3NX_bbtvHv0CCGVlVaT6-22">
+          <mxGeometry y="182" width="190" height="26" as="geometry" />
         </mxCell>
-        <mxCell id="3NX_bbtvHv0CCGVlVaT6-19" value="- Class(String nombre, int edad): " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="3NX_bbtvHv0CCGVlVaT6-11">
-          <mxGeometry y="208" width="160" height="26" as="geometry" />
+        <mxCell id="3NX_bbtvHv0CCGVlVaT6-30" value="- getId(): String" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="3NX_bbtvHv0CCGVlVaT6-22">
+          <mxGeometry y="208" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="3NX_bbtvHv0CCGVlVaT6-31" value="- setId(String id): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="3NX_bbtvHv0CCGVlVaT6-22">
+          <mxGeometry y="234" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="3NX_bbtvHv0CCGVlVaT6-32" value="- mostrarInformacion(): void" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="3NX_bbtvHv0CCGVlVaT6-22">
+          <mxGeometry y="260" width="190" height="26" as="geometry" />
+        </mxCell>
+        <mxCell id="3NX_bbtvHv0CCGVlVaT6-33" value="- Class(String nombre, int edad): " style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" vertex="1" parent="3NX_bbtvHv0CCGVlVaT6-22">
+          <mxGeometry y="286" width="190" height="26" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
